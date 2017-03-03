@@ -1,0 +1,404 @@
+
+
+/* ######################################  demo css   ############################################################# */
+
+.list_m5{
+    margin: 1%;
+}
+.list_m5 a{
+    margin: 1%;
+}
+
+/* ############################################################################################################ */
+
+.nav-menu .active,.nav-menu .active a:hover{ 
+    background-color: #2780e3;
+}
+.nav-menu .active a{
+	color: #ffffff; 
+	text-decoration: none;
+}
+
+/* ######################### NavBar  ##############################*/
+
+.navbar{
+    border: none; 
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar .navbar-nav>li>a,.navbar .navbar-nav>li>a:focus, .navbar .navbar-nav>li>a:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+.navbar .navbar-brand ,.navbar .navbar-brand:hover {
+    color: #fff;
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: rgba(33, 33, 33, 0.12);
+}
+.navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: rgba(33, 33, 33, 0.12);
+}
+.navbar-form .form-group input[type="text"]{
+    border-radius: 0;
+    box-shadow: 3px 3px 5px silver inset;
+    border: 2px solid white;
+}
+.navbar-form button.btn-default,.navbar-form button.btn-default:hover{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    margin-left: -3%;
+    border-left: 1px solid #EEEEEE;
+    outline: none!important; 
+}
+
+.navbar-default { 
+    background-color: #2196F3; 
+}
+.navbar-inverse{
+	background-color: #2d2d2d;
+}
+.navbar-facebook { 
+    background-color: #3b5998; 
+}
+.navbar-twitter {  
+    background-color: #00aced; 
+}
+.navbar-google {  
+    background-color: #d34836; 
+}
+.navbar-silver {  
+    background-color: #757575;
+}
+
+/* ######################### Buttons btn  ##############################*/
+.btn {
+    border-radius: 0px;
+    letter-spacing: 0.2px;
+    opacity: 1;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+    outline: none;
+    text-decoration: none;
+    border:1px solid transparent;
+}
+.btn:hover,.btn:active,.btn:focus{
+    outline: none;
+    text-decoration: none;
+    opacity: 1;
+}
+/*default*/
+.btn-default, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+    background-color: #FAFAFA;
+    color: #212121;
+    border: 1px solid #ccc;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+    background-color: #2196F3;
+    color: white;
+}
+.btn-success, .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success {
+    background-color: #33b86c;
+}
+.btn-info, .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.focus, .btn-info:active, .btn-info:focus, .btn-info:hover, .open>.dropdown-toggle.btn-info {
+    background-color: #29b6f6;
+}
+.btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning {
+    background-color: #FFC107;
+}
+.btn-danger, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .btn-danger.active, .btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open>.dropdown-toggle.btn-danger {
+    background-color: #ef5350;
+}
+.btn-inverse, .btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.focus, .btn-inverse:active, .btn-inverse:focus, .btn-inverse:hover, .open>.dropdown-toggle.btn-inverse {
+    background-color: #212121;
+    color: #FFFFFF;
+}
+.btn-purple, .btn-purple:hover, .btn-purple:focus, .btn-purple:active {
+    background-color: #7e57c2;
+    color: #FFFFFF;
+}
+.btn-pink, .btn-pink:hover, .btn-pink:focus, .btn-pink:active {
+    background-color: #ec407a;
+    color: #FFFFFF;
+}
+
+/* custom */
+.btn-custom{
+    background-color: #FFFFFF !important;
+    border: 1px solid ;
+}
+.btn-custom.btn-default:hover, .btn-custom.btn-default:focus {
+    color: black !important;
+}
+.btn-custom.btn-default {
+    color: black !important;
+    border-color: black !important;
+}
+.btn-custom.btn-primary {
+    color: #1e88e5 !important;
+    border-color: #1e88e5 !important;
+}
+.btn-custom.btn-success {
+    color: #33b86c !important;
+    border-color: #33b86c !important;
+}
+.btn-custom.btn-info {
+    color: #29b6f6 !important;
+    border-color: #29b6f6 !important;
+}
+.btn-custom.btn-warning {
+    color: #FFC107 !important;
+    border-color: #FFC107 !important;
+}
+.btn-custom.btn-danger {
+    color: #ef5350 !important;
+    border-color: #ef5350 !important;
+}
+.btn-custom.btn-inverse {
+    color: #212121 !important;
+    border-color: #212121 !important;
+}
+.btn-custom.btn-purple {
+    color: #7e57c2 !important;
+    border-color: #7e57c2 !important;
+}
+.btn-custom.btn-pink {
+    color: #ec407a !important;
+    border-color: #ec407a !important;
+}
+.btn-custom.btn-default:hover {
+    color: black !important;
+    background-color: #eaeaea !important;
+}
+.btn-custom.btn-primary:hover {
+    color: white !important;
+    background-color: #1e88e5 !important;
+}
+.btn-custom.btn-success:hover {
+    color: white !important;
+    background-color: #33b86c !important;
+}
+.btn-custom.btn-info:hover {
+    color: white !important;
+    background-color: #29b6f6 !important;
+}
+.btn-custom.btn-warning:hover {
+    color: white !important;
+    background-color: #FFC107 !important;
+}
+.btn-custom.btn-danger:hover {
+    color: white !important;
+    background-color: #ef5350 !important;
+}
+.btn-custom.btn-inverse:hover {
+    color: white !important;
+    background-color: #212121 !important;
+}
+.btn-custom.btn-purple:hover {
+    color: white !important;
+    background-color: #7e57c2 !important;
+}
+.btn-custom.btn-pink:hover {
+    color: white !important;
+    background-color: #ec407a !important;
+}
+/*rounded*/
+.btn-rounded {
+    border-radius: 2em;
+    padding: 6px 18px;
+}
+.btn-rounded-1{
+    border-radius: 2em 0 0 0;
+    padding: 6px 18px;
+}
+.btn-rounded-2{
+    border-radius: 0 2em 0 0;
+    padding: 6px 18px;
+}
+.btn-rounded-3{
+    border-radius: 0 0 2em 0;
+    padding: 6px 18px;
+}
+.btn-rounded-4{
+    border-radius: 0 0 0 2em;
+    padding: 6px 18px;
+}
+/* btn width */
+
+.btn-w-xs {
+    min-width: 80px;
+}
+.btn-w-sm {
+    min-width: 95px;
+}
+.btn-m-b-5 {
+    margin-bottom: 5px;
+}
+.btn-w-lg {
+    min-width: 140px;
+}
+/* icons */
+.btn-icon{
+    padding: 6px 12px;
+    font-size: 1em;
+    width: 40px;
+}
+.btn-icon.btn-rounded{
+    padding: 8px 10px;
+}
+/* social */
+/** facebook **/
+.btn-facebook-like{
+    background-color: #3B5998;
+    color: white;
+    border-radius: 3px;
+    font-size: 11px;
+    height: 20px;
+    padding: 0px 8px 0px 0px;
+    line-height: 1.65;
+}
+.btn-facebook-like:before{
+    content: "\f164";
+    font-family: 'FontAwesome';
+    margin: 0 7px;
+}
+.btn-facebook-like-page,.btn-facebook-share-page{
+    background-color: #f7f8f9;
+    color: #4e5a6e;
+    border-radius: 3px;
+    font-size: 11px;
+    height: 25px;
+    padding: 0px 8px 0px 0px;
+    line-height: 2;
+    border: 1px solid rgba(158, 158, 158, 0.38);
+} 
+.btn-facebook-like-page:before{
+    content: "\f230";
+    font-family: 'FontAwesome';
+    margin: 0 7px;
+    color: #3B5998;
+}
+.btn-facebook-share-page:before{
+    content: "\f064";
+    font-family: 'FontAwesome';
+    margin: 0 7px;
+    color: #757575;
+}
+.btn-facebook-like:hover{
+    color: white;
+}
+.btn-facebook-default{ 
+    border: 1px solid #999;
+    border-bottom-color: #888; 
+    color: #333;
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f6f6), to(#e4e4e3));
+    background-image: -moz-linear-gradient(#f5f6f6, #e4e4e3);
+    background-image: -o-linear-gradient(#f5f6f6, #e4e4e3);
+    background-image: linear-gradient(#f5f6f6, #e4e4e3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f5f6f6', EndColorStr='#e4e4e3');
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #fff; 
+}
+.btn-facebook-primary{
+    border-color: #29447e #29447e #1a356e;
+    color: #fff;
+    background-color: #5B74A8;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+    background-image: -moz-linear-gradient(#637bad, #5872a7);
+    background-image: -o-linear-gradient(#637bad, #5872a7);
+    background-image: linear-gradient(#637bad, #5872a7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#637bad', EndColorStr='#5872a7');
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+}
+.btn-facebook-primary:hover{ 
+    color: #fff; 
+}
+.btn-facebook-success{
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    color: #fff;
+    background-color: #69a74e;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#75ae5c), to(#67a54b));
+    background-image: -moz-linear-gradient(#75ae5c, #67a54b);
+    background-image: -o-linear-gradient(#75ae5c, #67a54b);
+    background-image: linear-gradient(#75ae5c, #67a54b);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#75ae5c', EndColorStr='#67a54b');
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #98c286;
+}
+.btn-facebook-success:hover{ 
+    color: #fff; 
+}
+
+/** twitter **/
+.btn-twitter-follow{  
+    color: #fff;
+    cursor: pointer;
+    background-color: #1b95e0;  
+    border-radius: 3px;
+    font-size: 11px;
+    height: 20px;
+    padding: 0px 8px 0px 0px;
+    line-height: 1.65;
+}
+.btn-twitter-follow:before{
+    content: "\f099";
+    font-family: 'FontAwesome';
+    margin: 0 7px;
+}
+.btn-twitter-tweet{  
+   background-color: #f7f8f9;
+    color: #4e5a6e;
+    cursor: pointer; 
+    border-radius: 3px;
+    font-size: 11px;
+    height: 20px;
+    padding: 0px 8px 0px 0px;
+    line-height: 1.65;
+    border: #ccc solid 1px;
+}
+.btn-twitter-tweet:before{
+    content: "\f099";
+    font-family: 'FontAwesome';
+    margin: 0 7px;
+    color: #1b95e0;
+}
+.btn-twitter-follow:hover{ 
+    color: white;
+}
+/** youtube **/
+.btn-youtube-subscribe{
+    background-color: #e62117;
+    height: 28px;
+    border: solid 1px transparent;
+    padding: 0 5px;
+    outline: 0;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    color: white;
+    line-height: 2;
+} 
+.btn-youtube-subscribe:before{
+    content: "\f16a";
+    font-family: 'FontAwesome';
+    margin: -7px 7px;
+    color: white;
+    font-size: 1.7em; 
+    float: left;
+    padding-left: 0.1%;
+} 
+.btn-youtube-subscribe:hover{
+    color: white;
+}
